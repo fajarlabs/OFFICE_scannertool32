@@ -1,0 +1,1 @@
+# Folder file temporary untuk OCR Recognize

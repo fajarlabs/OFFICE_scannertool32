@@ -1,0 +1,16 @@
+Pastikan dalam instalasi, environment ini sudah terpasang di windows environment
+
+Pastikan pada environment PATH tersimpan path berikut : 
+C:\ScannerTool
+C:\ScannerTool\tesseract
+C:\ScannerTool\Library\bin
+C:\ScannerTool\Scripts
+C:\ScannerTool\Lib\site-packages\win32
+C:\ScannerTool\Lib\site-packages\pywin32_system32
+C:\ScannerTool\Scripts
+
+Pastikan pada environment TESSDATA_PREFIX tersimpan path berikut : 
+C:\ScannerTool
+
+Pastikan pada environment PYTHONPATH tersimpan path berikut :
+C:\ScannerTool

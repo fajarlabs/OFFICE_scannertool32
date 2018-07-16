@@ -1,0 +1,5 @@
+Pastikan hak akses folder pada folder ScannerTool
+
+Klik kanan pada folder PROPERTIES -> PILIH TAB SECURITY 
+
+lalu pilih "SYSTEM" dan "USERS" sudah statusnya allow semua agar file2nya bisa masuk kedalam folder tersebut.
