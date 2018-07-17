@@ -1,4 +1,4 @@
-from scanner import scan_process,get_devices
+from scanner import single_scan_process,get_devices
 from ocr import read_file_from_data_uri,read_file
 from checkservice import get_service
 
@@ -52,7 +52,7 @@ class MainController:
 				# dapatkan scale warna
 				color_scale = str(userdata.scale)
 				# start scanning process by device id
-				scn_result = scan_process(deviceid,color_scale,capability)
+				scn_result = single_scan_process(deviceid,color_scale,capability)
 				# get result data from scanner
 				nme_result = str(scn_result[0]) # file name
 				b64_result = "data:image/jpeg;base64,"+str(scn_result[1]) # image base64
